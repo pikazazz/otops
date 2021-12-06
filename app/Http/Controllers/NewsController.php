@@ -18,7 +18,7 @@ class NewsController extends Controller
     {
 
         $News = News::get();
-        return view('News.app', ['News' => $News]);
+        return view('news.app', ['News' => $News]);
     }
 
     /**
@@ -46,9 +46,9 @@ class NewsController extends Controller
             'news_img_path' => 'sss',
         ]);
 
-        
+
         $News = News::get();
-        return view('News.app', ['News' => $News]);
+        return view('news.app', ['News' => $News]);
     }
 
     /**

@@ -112,7 +112,7 @@
                             return false;
                         }
                     }
-                ); //ss
+                ); //ssss
 
                 $('#submit_button').toggle(allValid);
             }
